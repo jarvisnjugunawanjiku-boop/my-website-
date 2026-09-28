@@ -5,75 +5,69 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jarvis Njuguna - Web Developer Thika</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
-body{background:#f5f5f5;color:#333}
-.h{background:linear-gradient(135deg,#000,#333);color:#fff;padding:40px 20px;text-align:center}
-.h h1{font-size:32px}
-.h p{margin-top:8px;color:#aaa}
-.btn-top{display:inline-block;margin:10px 5px;padding:10px 20px;border-radius:25px;color:#fff;text-decoration:none;font-size:14px}
-.w{max-width:700px;margin:20px auto;padding:0 15px}
-.c{background:#fff;padding:20px;border-radius:15px;margin-bottom:15px;box-shadow:0 2px 10px rgba(0,0,0,.1)}
-.pay{background:#000;color:#fff;padding:20px;border-radius:15px;text-align:center;border:2px solid #00A651}
-.pay-box{background:#111;padding:15px;border-radius:10px;margin:12px 0}
-.pay-num{font-size:26px;font-weight:bold;margin:10px 0}
-.pay-name{background:#00A651;padding:5px 15px;border-radius:20px;font-size:13px}
+body{margin:0;font-family:Arial,sans-serif;background:#f5f5f5}
+.header{background:#6c5ce7;color:white;padding:25px 15px;text-align:center}
+.btn{display:inline-block;padding:10px 20px;border-radius:25px;text-decoration:none;margin:6px;font-weight:bold;font-size:15px}
+.card{background:white;margin:15px;border-radius:15px;padding:15px;box-shadow:0 2px 10px rgba(0,0,0,0.1)}
+.service{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #eee;font-size:14px}
+.order{background:#25D366;color:white;text-align:center;padding:14px;border-radius:10px;display:block;text-decoration:none;font-weight:bold;margin-top:10px}
 </style>
 </head>
 <body>
 
-<div class="h">
-<h1>Jarvis Njuguna</h1>
-<p>Web Developer | Thika, Kenya</p>
-<a class="btn-top" style="background:#ff0000" href="#">YouTube</a>
-<a class="btn-top" style="background:#25D366" href="https://wa.me/254117219512">WhatsApp</a>
-<a class="btn-top" style="background:#1877f2" href="#">Facebook</a>
+<div class="header">
+  <h1 style="margin:0">Jarvis Njuguna</h1>
+  <p style="margin:5px 0;">Web Developer | Thika, Kenya</p>
+  
+  <!-- ONLY 3 BUTTONS AS YOU REQUESTED -->
+  <a class="btn" style="background:white;color:#6c5ce7;" href="tel:0117219512">📞 0117219512</a>
+  <a class="btn" style="background:#25D366;color:white;" href="https://wa.me/254117219512?text=Hi%20Jarvis%2C%20I%20need%20a%20website%20in%20Thika" target="_blank">💬 WhatsApp</a>
+  <a class="btn" style="background:#1877F2;color:white;" href="https://www.facebook.com/search/top/?q=Jarvis%20Njuguna%20Thika" target="_blank">📘 Facebook</a>
 </div>
 
-<div class="w">
-
-<div class="c">
-<img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" style="width:100%;border-radius:10px">
-<h2 style="margin-top:10px">Nature View Landing Page</h2>
-<p style="font-size:13px;color:#555">Landing page project with cool design</p>
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600" style="width:100%;border-radius:10px;">
+  <h3 style="margin:10px 0 2px 0;">Nature View</h3>
+  <p style="margin:0;font-size:13px;color:#666;">Landscape photography & clean web design inspired by nature. Based in Thika.</p>
+  <div style="margin-top:10px;">
+    <span style="background:#eef;padding:5px 10px;border-radius:15px;font-size:11px;">Web Design</span>
+    <span style="background:#eef;padding:5px 10px;border-radius:15px;font-size:11px;">GitHub</span>
+    <span style="background:#eef;padding:5px 10px;border-radius:15px;font-size:11px;">Mobile Friendly</span>
+  </div>
 </div>
 
-<div class="c">
-<h2>💼 What I Do - Services</h2>
-<p style="font-size:12px;color:#666;margin:10px 0">Professional Web Solutions</p>
-<ul style="list-style:none;font-size:14px;line-height:2">
-<li>✅ Website Design - Ksh 3,000</li>
-<li>✅ E-commerce Shops - Ksh 8,000</li>
-<li>✅ Landing Pages - Ksh 2,500</li>
-<li>✅ Website Fixing</li>
-</ul>
+<div class="card">
+  <h3>💼 What I Do - Services</h3>
+  <p style="font-size:12px;color:#666;margin-top:-10px;">I build affordable websites for businesses in Thika</p>
+  
+  <div class="service"><span>1. Business Website (Shop, Salon)</span><b>Ksh 3,000 - 8k</b></div>
+  <div class="service"><span>2. Personal CV Website</span><b>Ksh 1,500</b></div>
+  <div class="service"><span>3. Link-in-Bio Page</span><b>Ksh 1,000</b></div>
+  <div class="service"><span>4. Google Maps Setup</span><b>Ksh 1,000</b></div>
+  <div class="service"><span>5. Website Update</span><b>Ksh 500</b></div>
+  
+  <div style="background:#e8ffe8;padding:10px;border-radius:8px;margin-top:12px;font-size:13px;">
+    💰 <b>Payment:</b> 50% before, 50% after. Lipa na M-Pesa to <b>0117219512 - Jarvis Njuguna</b>
+  </div>
+  
+  <a class="order" href="https://wa.me/254117219512?text=Hi%20Jarvis%2C%20I%20want%20to%20order%20a%20website.%20My%20business%20is...">Order Your Website Now</a>
 </div>
 
-<!-- M-PESA PAYMENT SECTION - JARVIS NJUGUNA -->
-<div class="pay">
-<h3 style="color:#00ff88;margin:0">💳 M-PESA PAYMENT</h3>
-<p style="font-size:11px;color:#888;margin-top:5px">After payment name appears: Jarvis Njuguna</p>
-
-<div class="pay-box">
-<p style="color:#aaa;font-size:11px">1. SEND MONEY</p>
-<p class="pay-num">0117219512</p>
-<span class="pay-name">Jarvis Njuguna</span>
+<div class="card">
+  <h3>⭐ Why Hire Me?</h3>
+  <div style="font-size:13px;line-height:22px;">
+  ✅ Fast delivery - 1 day<br>
+  ✅ Works on phone & computer<br>
+  ✅ Free hosting first year<br>
+  ✅ WhatsApp & Call buttons<br>
+  ✅ M-Pesa integration<br>
+  ✅ Based in Thika - we can meet
+  </div>
 </div>
 
-<div class="pay-box" style="border:1px solid #00ff88">
-<p style="color:#aaa;font-size:11px">2. POCHI LA BIASHARA</p>
-<p class="pay-num">0117219512</p>
-<span class="pay-name">Jarvis Njuguna</span>
-<p style="font-size:10px;color:#666;margin-top:8px">Lipa na M-PESA > Pochi La Biashara</p>
+<div style="background:#222;color:white;text-align:center;padding:15px;font-size:12px;">
+  © 2026 Jarvis Njuguna - Web Developer Thika<br>📞 0117219512 | Render Hosting
 </div>
 
-<a href="https://wa.me/254117219512" style="display:block;background:#00A651;color:#fff;padding:12px;border-radius:8px;text-decoration:none;margin-top:15px;font-weight:bold">Confirm Payment on WhatsApp</a>
-</div>
-
-<div class="c" style="text-align:center">
-<p style="font-size:13px">📍 Thika, Kenya | 📞 0117219512</p>
-<p style="font-size:12px;color:#999;margin-top:10px">© 2026 Jarvis Njuguna - All Rights Reserved</p>
-</div>
-
-</div>
 </body>
 </html>
